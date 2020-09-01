@@ -1,0 +1,90 @@
+body {
+    background-color: #1f202b;
+    color:white;
+    font-size: 12px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+    padding-left: 18px;
+    font-weight: normal;
+
+}
+
+nav {
+    float: right;
+}
+
+header {
+    display: inline;
+    text-decoration: none;
+    height: 50px;
+    background-color: #1f202b;
+    margin: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 40px 0 45px;
+}
+
+nav a:hover {
+    color:#55d6aa;
+}
+
+#full {
+    background-image: url(../img/hero.png);
+    background-size: cover;
+    height: 800px;
+    margin-top: 0px;
+    width: 100%;
+}
+
+h2 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 72px;
+    float: left;
+    padding-left:100px;
+    padding-top: 200px;
+}
+
+span {
+    color:#fa0075;
+}
+
+h3 {
+    color: #fa0075;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 28px;
+    font-weight: normal;
+    text-align: center;
+}
+
+img {
+    height: 350px;
+    width: 450px;
+    padding-left: 150px;
+}
+
+h4, h5, p {
+    float: right;
+    padding-right: 100px;
+}
+
+.about {
+    background-image: url(../img/about.png);
+    background-size: cover;
+    height: 600px;
+}

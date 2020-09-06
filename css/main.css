@@ -1,15 +1,33 @@
+/****Base Styles****/
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 body {
     background-color: #1f202b;
     color:white;
     font-size: 12px;
 }
 
+.wrapper-right { 
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.half-r {
+    width: 600px;
+    float: left;
+}
+
+/***** Header *****/
+
 h1 {
     font-family: 'Montserrat', sans-serif;
     float: left;
     padding-left: 18px;
     font-weight: normal;
-
+    color:#fff;
 }
 
 nav {
@@ -17,11 +35,14 @@ nav {
 }
 
 header {
-    display: inline;
     text-decoration: none;
     height: 50px;
     background-color: #1f202b;
     margin: 15px 0;
+}
+
+header h1:hover {
+    color:#55d6aa;
 }
 
 nav ul {
@@ -41,14 +62,15 @@ nav a {
 }
 
 nav a:hover {
-    color:#55d6aa;
+    color:#fa0075;
 }
+
+/***** Hero *****/
 
 #full {
     background-image: url(../img/hero.png);
     background-size: cover;
     height: 800px;
-    margin-top: 0px;
     width: 100%;
 }
 
@@ -64,27 +86,186 @@ span {
     color:#fa0075;
 }
 
+/****Portfolio *****/
+
+#portfolio {
+    height: 1500px;
+}
+
 h3 {
     color: #fa0075;
     font-family: 'Source Code Pro', monospace;
-    font-size: 28px;
+    font-size: 36px;
     font-weight: normal;
     text-align: center;
+    margin-bottom: 100px;
+    padding-top: 50px;
+}
+
+.wrapper {
+    clear:both;
+    vertical-align: middle;
+}
+
+.wrapper-right {
+    clear:both;
 }
 
 img {
     height: 350px;
-    width: 450px;
-    padding-left: 150px;
+    width: 550px;
+    margin-left: 75px;
+    margin-bottom: 100px;
+    border:1px solid #b7b7b7;
+}
+
+.half-r {
+    width: 600px;
+    float: right;
+}
+
+.left {
+    font-size: 24px;
+    font-weight: normal;
+    font-family: 'Montserrat';
+    line-height: 24px;
+}
+
+.half img {
+    padding: 0px;
+    margin: 0px 0px 100px 0px;
+}
+
+.half{
+    width: 600px;
+    float: left;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    line-height: 24px;
+    padding-bottom: 20px;
+    padding-left: 75px;
+}
+
+h5 {
+    padding-top: 40px;
+}
+
+h5, p {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: normal;
+    padding-bottom: 20px;
+    padding-left: 75px;
 }
 
 h4, h5, p {
-    float: right;
-    padding-right: 100px;
+    float: left;
+    padding-right: 10px;
+    margin: 0;
 }
 
-.about {
+/****About Me****/
+
+#about {
     background-image: url(../img/about.png);
     background-size: cover;
     height: 600px;
+}
+
+.say {
+    color:#111;
+    width: 1000px;
+}
+
+/****Footer****/
+
+.third {
+    display:flex;
+    flex-direction: column;
+    width: 33%;
+    text-align:center;
+    height: 300px;
+    float: left;
+}
+
+.third a {
+    color:#fff;
+    font-size: 24px;
+    text-decoration: none;
+    padding-left: 60px;
+}
+
+.third a:hover {
+    color:#55d6aa;
+}
+
+.flex {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.contact {
+    text-align: center;
+    padding: 20px;
+}
+
+#connect ul li {
+    display: inline-block;
+    margin-right:44px;
+}
+
+#connect .icons {
+    display:flex;
+    justify-content: space-around;
+}
+
+.icons img{
+    border:none;
+}
+
+#connect img {
+    width: 45px;
+    margin: 0;
+    padding: 0;
+    height: 45px;
+}
+
+.copy {
+    width: 100%;
+    display:flex;
+    justify-content:center;
+}
+
+/*****about page*****/
+
+.bio {
+    width: 800px;
+    align-content: center;
+    margin-left: 350px;
+    text-align:center;
+}
+
+.content {
+    font-size: 36px;
+}
+
+span {
+    font-family: 'Bilbo', cursive;
+    font-size: 48px;
+}
+
+.cafe img{
+    margin-top: 30px;
+}
+
+.aboutpage {
+    width: 100%;
+    background-color: #111;
+    text-align:center;
+    margin: 0;
 }
